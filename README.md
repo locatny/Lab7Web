@@ -6,39 +6,41 @@
 |Matkul | Pemrograman Web 2|
 
 # Praktikum 1
-# PHP Framework (Codeigniter)
+# PHP Framework (_Codeigniter_)
   Langkah-langkah Praktikum Persiapan
 Sebelum memulai menggunakan Framework Codeigniter, perlu dilakukan
 konfigurasi pada webserver. Beberapa ekstensi PHP perlu diaktifkan untuk
-kebutuhan pengembangan Codeigniter 4. Berikut beberapa ekstensi yang perlu diaktifkan:
-
-  • php-json ekstension untuk bekerja dengan JSON;
-  • php-mysqlnd native driver untuk MySQL;
-  • php-xml ekstension untuk bekerja dengan XML;
-  • php-intl ekstensi untuk membuat aplikasi multibahasa;
-  • libcurl (opsional), jika ingin pakai Curl.
+kebutuhan pengembangan Codeigniter 4.
+  Berikut beberapa ekstensi yang perlu diaktifkan:
+  
+    • php-json ekstension untuk bekerja dengan JSON;
+    • php-mysqlnd native driver untuk MySQL;
+    • php-xml ekstension untuk bekerja dengan XML;
+    • php-intl ekstensi untuk membuat aplikasi multibahasa;
+    • libcurl (opsional), jika ingin pakai Curl.
 
 Untuk mengaktifkan ekstentsi tersebut, melalu XAMPP Control Panel,
 pada bagian Apache klik Config -> PHP.ini 
 ![image](https://github.com/user-attachments/assets/1629c0de-04d4-49b4-b53d-fe80335041c6)
 
-Pada bagian extention, hilangkan tanda ; (_titik koma_) pada ekstensi
-yang akan diaktifkan. Kemudian simpan kembali filenya dan restart Apache web server. 
+  Pada bagian extention, hilangkan tanda ; (_titik koma_)
+pada ekstensi yang akan diaktifkan. Kemudian simpan kembali
+filenya dan restart Apache web server. 
 
 ![image](https://github.com/user-attachments/assets/318607e6-0b04-4682-a2ef-d68db288e13c)
 
-****Instalasi Codeigniter 4**** 
+****_Instalasi Codeigniter 4_**** 
   Untuk melakukan instalasi Codeigniter 4 dapat dilakukan dengan dua cara, yaitu
 cara manual dan menggunakan composer. Pada praktikum ini kita menggunakan cara manual. 
 
-  • Unduh Codeigniter dari website https://codeigniter.com/download  
-  • Extrak file zip Codeigniter ke direktori htdocs/lab11_ci. 
-  • Ubah nama direktory framework-4.x.xx menjadi ci4. 
-  • Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/ 
+    • Unduh Codeigniter dari website https://codeigniter.com/download  
+    • Extrak file zip Codeigniter ke direktori htdocs/lab11_ci. 
+    • Ubah nama direktory framework-4.x.xx menjadi ci4. 
+    • Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/ 
 
 ![image](https://github.com/user-attachments/assets/244584c2-6ce1-4a73-9f5e-20c90e309b53)
 
-****Menjalankan CLI (Command Line Interface)**** 
+****Menjalankan CLI (_Command Line Interface_)**** 
   Codeigniter 4 menyediakan CLI untuk mempermudah proses development.
 Untuk mengakses CLI buka terminal/command prompt.
 
@@ -51,7 +53,7 @@ direktori kerja Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter a
 
 ![image](https://github.com/user-attachments/assets/400d6ded-4455-4f70-9ce3-946c8e06bcbf)
 
-****Mengaktifkan Mode Debugging****
+****Mengaktifkan Mode _Debugging_****
   Codeigniter 4 menyediakan fitur debugging untuk memudahkan developer
 untuk mengetahui pesan error apabila terjadi kesalahan dalam membuat kode program. 
 Secara default fitur ini belum aktif. Ketika terjadi error pada aplikasi akan
